@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background: url(img/mountain.jpg) no-repeat center center fixed;
+    background-size: cover; 
+}
+
+.main-section{
+    margin: 0 auto !important;
+    margin-top: 130px !important;
+    padding: 0 !important;
+}
+
+.modal-content{
+    background-color: #3b4652 !important;
+    opacity: .95 !important;
+    padding: 0 18px !important;
+    box-shadow: 0px 0px 3px #848484 !important;
+}
+
+.user-img{
+    margin-top: -50px !important;
+    margin-bottom: 35px !important;
+}
+
+.user-img img{
+    height: 100px !important;
+    width: 100px !important;
+    border-radius: 5px !important;
+    box-shadow: 0px 0px 2px #3b4652 !important;
+}
+
+.form-group {
+    margin-bottom: 25px !important;
+}
+
+.form-group input {
+    height: 42px !important;
+    border-radius: 5px !important;
+    border: 0 !important;
+    font-size: 18px !important;
+    padding-left: 54px !important;
+}
+
+.form-group::before{
+    font-family: 'Font Awesome\ 5 Free' !important;
+    content: "\f007" !important;
+    position: absolute !important;
+    font-size: 22px !important;
+    color: #555e60 !important;
+    left: 28px !important;
+    padding-top: 4px !important;
+}
+
+.form-group:last-of-type::before{
+    content: "\f023" !important;
+}
+
+button{
+    width: 40% !important;
+    margin: 5px 0 25px !important;
+}
+
+.btn {
+    background-color: #27c2a5 !important;
+    color: #fff !important;
+    font-size: 19px !important;
+    padding: 7px 14px !important;
+    border-radius: 5px !important;
+    border-bottom: 4px solid #219882 !important;
+}
+
+.btn:hover, .btn:focus{
+    background-color: #25a890 !important;
+    border-bottom: 4px solid #25a890 !important;
+}
+
+.svg-inline--fa{
+    font-size: 20px !important;
+    margin-right: 7px !important;
+}
+
+.forgot {
+    padding: 5px 0 25px !important;
+}
+
+.forgot a{
+    color: #c2fbfe !important;
+}

@@ -1,0 +1,11 @@
+<?php
+
+namespace App;
+
+use Illuminate\Database\Eloquent\Model;
+
+class Entrega extends Model
+{
+    protected $table = 'entrega';
+    protected $fillable = ['iddespacho','PEP','estado','motivo'];
+}
